@@ -1,48 +1,27 @@
-# QRCode-Telegram-bot
-
-
-#### Clone repository
-
-```sh
-//With HTTPS
-$ git clone https://github.com/AbhijithNT/QRCode-Telegram-bot.git
 ```
-```sh
-//With GitHub CLI
-$ gh repo clone AbhijithNT/QRCode-Telegram-bot
+Made with Python3
+(C) @Judson-web
+Copyright permission under MIT License
+License -> https://github.com/Judson-web/QR-Code/blob/main/LICENSE
 ```
-#### Install requirements
+
+---
+
+## Deploy
+
 ```sh
+git clone https://github.com/Judson-web/QR-Code.git
+cd QR-Code
 pip3 install -r requirements.txt
-```
-### Add your bot details
-
-An example `config.py` file could be:
-
-```python3
-BOT_TOKEN = '1991308069:tU1gaAyvgAAGgo3F2AI2J7nxcqvkwoTCrpY' #add your API_HASH from https://my.telegram.org/apps
-API_ID = 1234567 #Add your API_ID from https://my.telegram.org/apps
-API_HASH = 'bc4811980930ad49d7f8e2b024f7cf13' #Add your Bot token from @Botfather
-```
-Go and get the bot token [@BotFather](https://telegram.dog/BotFather)
-
-click the link to get your app id & api_hash [my.telegram.org](https://my.telegram.org/auth)
-
-### Run your Bot
-
-```sh
-python3 -m bot
+python3 main.py
 ```
 
-### Deploy
+---
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbhijithNT/QRCode-Telegram-bot/)
+## Credits
 
+- [Fayas Noushad](https://github.com/FayasNoushad)
+- [Me](https://github.com/Judson-web)
+- [Abhijith NT](https://github.com/AbhijithNT) for his [QR Code Bot](https://github.com/AbhijithNT/QRCode-Telegram-bot)
 
-
-## Credits, and Thanks to
-
-* [Dan Tès](https://telegram.dog/haskell) for his[Pyrogram Library](https://github.com/pyrogram/pyrogram)
-
-### LICENSE
-- [ GPL-3.0 License](https://github.com/AbhijithNT/OlamTelegramBot/blob/main/LICENSE)
+---
