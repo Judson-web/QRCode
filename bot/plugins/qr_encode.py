@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-# This is bot coded by Abhijith N T and used for educational purposes only
-# https://github.com/AbhijithNT
-# (c) Abhijith N T ;-)
+# This is bot coded by Judson-web and used for educational purposes only
+# https://github.com/Judson-web
+# (c) Judson-web ;-)
 # Thank you https://github.com/pyrogram/pyrogram :-)
 
 import os
@@ -16,7 +16,7 @@ from bot.plugins.display.display_progress import progress
 async def qr_encode(client, message):
     qr = await client.send_message(
         chat_id=message.chat.id,
-        text="Making your QR Code... 😁",
+        text="Mᴀᴋɪɴɢ ʏᴏᴜʀ QR Cᴏᴅᴇ... 😁",
         reply_to_message_id=message.message_id
     )
     s = str(message.text)
@@ -34,7 +34,7 @@ async def qr_encode(client, message):
             photo=img,
             progress=progress,
             progress_args=(
-                "Trying to Uploading....",
+                "Tʀʏɪɴɢ ᴛᴏ Uᴘʟᴏᴀᴅɪɴɢ 🥱....",
                 qr
             )
         )
@@ -42,9 +42,9 @@ async def qr_encode(client, message):
     except Exception as error:
         print(error)
 
-    await qr.edit_text(f"https://telegra.ph{response[0]}")
+    await qr.edit_text(f"`https://telegra.ph{response[0]}`")
 
     try:
         os.remove(img)
     except Exception as error:
-        print('Something is {error}')
+        print('Sᴏᴍᴇᴛʜɪɴɢ ɪs {error}')
